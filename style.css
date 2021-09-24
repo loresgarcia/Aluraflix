@@ -1,0 +1,122 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://brancoala.com/wp-content/uploads/2018/09/filmes-para-ver-em-familia.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeatrepeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 15px;
+}
+
+img {
+  max-height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+img:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 5px white;
+}
+
+input {
+  margin: 5px;
+  padding: 6px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  border-color: transparent;
+}
+
+button {
+  margin-top: 5px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+  margin-bottom: 7px;
+  border-color: transparent;
+}
+
+button:hover {
+  background-color: #e53935;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.warning {
+  margin-top: 5px;
+  border: 1px;
+  border-radius: 6px;
+  color: #c43e00;
+  background-color: #f3e5f5;
+  border-color: #c43e00;
+  width: max-content;
+  margin: 0px auto 1rem auto;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  z-index: 100;
+}
+
+#removerFilme {
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+  width: 300px;
+}
+
+.novoFilme {
+  margin-bottom: 10px;
+}
